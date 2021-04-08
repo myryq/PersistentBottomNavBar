@@ -96,7 +96,7 @@ class _BottomNavStyle6State extends State<BottomNavStyle6>
                                                         null
                                                     ? item.activeColorPrimary
                                                     : item.activeColorPrimary)
-                                                : item.inactiveColorPrimary))
+                                                : item.inactiveColorSecondary))
                                         : TextStyle(
                                             color: isSelected
                                                 ? (item.activeColorSecondary ==
